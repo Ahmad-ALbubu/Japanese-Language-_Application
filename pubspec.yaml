@@ -1,0 +1,30 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  audioplayers: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/screens/assets/images/colors/
+    - lib/screens/assets/images/family_members/
+    - lib/screens/assets/images/numbers/
+    - lib/screens/assets/sounds/colors/
+    - lib/screens/assets/sounds/family_members/
+    - lib/screens/assets/sounds/numbers/
+    - lib/screens/assets/sounds/phrases/
